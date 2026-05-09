@@ -288,21 +288,21 @@
       <div>
         <h1>PROJECT<span class="slash">/</span>GALLERY</h1>
         <p class="tagline">
-          A cathode-ray broadcast from the parallel grid. Phosphor &amp; static,
-          tuned to channel <span class="yellow">07</span>.<span class="caret"></span>
+          A Project made in France by <span class="yellow">STI2D</span> students &amp; during
+          the <span class="yellow">2025-2026</span> class.<span class="caret"></span>
         </p>
       </div>
       <div class="clock-block">
         <span class="clock" id="clock">--:--:--</span>
         <div style="margin-top:.4rem">TERMINAL SESSION ACTIVE</div>
-        <div class="frames">FRAMES: <span id="frame-count">000</span></div>
+        <div class="frames">FRAMES: <span id="frame-count">003</span></div>
       </div>
     </div>
 
     <div class="meta">
       <span><span class="sl">//</span> MODE:GALLERY</span>
       <span><span class="sl">//</span> RES:HD_CRT</span>
-      <span><span class="sl">//</span> SCAN:480i</span>
+      <span><span class="sl">//</span> QUALITY:LUDICROUS</span>
       <span><span class="sl">//</span> SIGNAL:STRONG</span>
     </div>
   </div>
@@ -311,9 +311,9 @@
 <nav class="filters">
   <div class="container">
     <button class="filter-btn active" data-filter="all">[ ALL ]</button>
-    <button class="filter-btn" data-filter="signal">[ SIGNAL ]</button>
+    <button class="filter-btn" data-filter="prototype">[ PROTOTYPE ]</button>
     <button class="filter-btn" data-filter="system">[ SYSTEM ]</button>
-    <button class="filter-btn" data-filter="archive">[ ARCHIVE ]</button>
+    <button class="filter-btn" data-filter="computing">[ COMPUTING ]</button>
   </div>
 </nav>
 
@@ -346,17 +346,12 @@
 <script>
   // ════════════════════════════════════════════════════════
   //  FRAMES — edit / add / remove freely
-  //  tag : 'signal' | 'system' | 'archive'
+  //  tag : 'prototype' | 'system' | 'computing'
   // ════════════════════════════════════════════════════════
   const FRAMES = [
-    { id: '001', tag: 'signal',  caption: 'Proto_Elec-1 // ELECTRONICS', src: 'https://github.com/Lorenzo-x64/Lorenzo-x64.github.io/blob/542633d129797ad90f688bf0b54d4eb211f68dee/img/IMG_20260410_103817_354.jpg' },
-    { id: '002', tag: 'system',  caption: 'Proto-1 // FRAME ',  src: 'https://github.com/Lorenzo-x64/Lorenzo-x64.github.io/blob/386088cd9e597e7eef633abd6fee6ca44e46f05a/img/IMG_20260507_092522_261.jpg' },
-    { id: '003', tag: 'archive', caption: 'Proto-1 // Frame',    src: 'https://github.com/Lorenzo-x64/Lorenzo-x64.github.io/blob/cdbc20c2d413ebfe9deae22687c592c51d1faeb8/img/IMG_20260507_092518_482.jpg' },
-    { id: '004', tag: 'signal',  caption: 'STATIC // CH_03',    src: '' },
-    { id: '005', tag: 'system',  caption: 'TERMINAL // BOOT',   src: '' },
-    { id: '006', tag: 'archive', caption: 'VHS_LOG // 1992',    src: '' },
-    { id: '007', tag: 'signal',  caption: 'CHANNEL // 11',      src: '' },
-    { id: '008', tag: 'archive', caption: 'SUNSET // RECORD',   src: '' },
+    { id: '001', tag: 'prototype', caption: 'Proto_Elec-1 // ELECTRONICS', src: 'img/IMG_20260410_103817_354.jpg' },
+    { id: '002', tag: 'prototype', caption: 'Proto-1 // FRAME',           src: 'img/IMG_20260507_092522_261.jpg' },
+    { id: '003', tag: 'prototype', caption: 'Proto-1 // Frame',           src: 'img/IMG_20260507_092518_482.jpg' },
   ];
 
   const grid = document.getElementById('grid');
